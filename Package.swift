@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0-alpha.1")),
-        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager", exact: "7.7.3"),
+        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager", exact: "7.7.4"),
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealVungleAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealVungleAdapter/7.7.3.0/AppodealVungleAdapter.xcframework.zip",
-            checksum: "a93d74192e5a8fc7eb118b33e283e5b94cb560b3f54a4e5a7ef71b5db2c96bb8"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealVungleAdapter/7.7.4.1/7eef0486b1a0/AppodealVungleAdapter.xcframework.zip",
+            checksum: "7eef0486b1a076d3afe9d72fb29daea3cdb13a86adc5a1e88d6f1f8d2a5eb509"
         ),
 
     ]
